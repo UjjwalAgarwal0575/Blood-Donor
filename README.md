@@ -1,7 +1,7 @@
 # Blood-Donor
 ### Authors
-#### Ujjwal Agarwal
-#### Amar Pratap Singh
+- Ujjwal Agarwal
+- Amar Pratap Singh
 
 This is an under progress application that will be a safe and efficient substitute for the Blood Banks.
 
