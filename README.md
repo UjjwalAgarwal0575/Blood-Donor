@@ -1,4 +1,7 @@
 # Blood-Donor
+### Authors
+#### Ujjwal Agarwal
+#### Amar Pratap Singh
 
 This is an under progress application that will be a safe and efficient substitute for the Blood Banks.
 
@@ -16,5 +19,5 @@ For more elaboration, on how to run this application, refer this link :- https:/
 
 ## Files Location
 
-.xml files     app/src/main/res/layout/                  
-.java files    app/src/main/java/com/example/blooddonor/  
+.xml files -->    app/src/main/res/layout/                  
+.java files -->   app/src/main/java/com/example/blooddonor/  
