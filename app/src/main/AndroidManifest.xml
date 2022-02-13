@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blooddonor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BloodDonor">
+        <activity
+            android:name=".Announce"
+            android:exported="false"
+            android:label="Enter your details"
+            android:parentActivityName=".UrgentNeed" /> <!-- android:theme="@style/Theme.BloodDonor.NoActionBar" /> -->
+        <activity
+            android:name=".UrgentNeed"
+            android:exported="false"
+            android:label="Announcements"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".NeedBlood"
+            android:exported="false"
+            android:label="Search for Blood Donors"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".BloodDonor"
+            android:exported="false"
+            android:label="Donate Blood"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true"
+            android:label="BloodDonor" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="Register"
+            android:parentActivityName=".first_page" />
+        <activity
+            android:name=".first_page"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
